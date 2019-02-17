@@ -1,127 +1,127 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:20:1-51:12
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:20:1-51:12
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:20:1-51:12
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\acd60115d316b0c8cda4d688eb329851\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\b6703422c2cf924c0567bdb26c5c168a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\a5e76874a00c9d1ec126dfc9490f2a25\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5f5bdef288e6bcc2af93d5e63863763a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b5659948fdf724541d99d34e003323d2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fc67818bae94194fbd266792a8bc94f1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e767dc3e065f574760ae3be14e40e77a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\51be228614348be784506966d164cef5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\15df0209371b08ce53840b8028f38543\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\034288fcf9c5acef962c7911d171a8db\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\410a1c7e91d9b8e293615204f0787fb5\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\ce9f58b9a5a10eea4eb591a7efba333c\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:20:1-51:12
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:20:1-51:12
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:1-51:12
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:1-51:12
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:1-51:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\252476e683b05f51a0d11db8c6df6377\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\541fc2d5d76b4ccf1eab96525e909b3e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\672dc8e3416cb16c0a04a4bd12283c6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a412dc3748381c5ec3f8d975984aa1e6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\be0d8a2c3891538028486f2e0159cfef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\26044a4107fbc1947d2731484f994409\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f75b90c558c8a8be179ae32f9ec20d08\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85e6d1acaff8894b613988238ce4dc1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0447fcf6e6d18fe13901d8c84833f3b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\66ee566fa6b77e763ed25d042642f1ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5121c57db618590edeefc191453d4814\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\87c9f10b757f0adf1930b1461f3c10ab\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:1-51:12
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:1-51:12
 	package
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:21:5-50
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:21:5-50
 	android:versionName
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:23:5-30
-		INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:23:5-30
+		INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:20:11-69
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:11-69
 	android:versionCode
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:22:5-28
-		INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:31:5-89
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:31:5-89
 	android:required
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:31:64-87
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:31:64-87
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:31:19-63
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:31:19-63
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:33:5-67
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:33:5-67
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:33:22-65
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:33:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:34:5-73
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:34:5-73
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:34:22-71
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:34:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:35:5-81
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:35:5-81
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:35:22-78
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:35:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:36:5-78
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:36:5-78
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:36:22-76
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:36:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:37:5-65
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:37:5-65
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:37:22-63
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:37:22-63
 application
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:38:5-49:19
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:38:5-49:19
 	android:label
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:38:18-50
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:38:18-50
 	android:theme
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:39:9-56
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:39:9-56
 activity#com.example.android.bluetoothlegatt.DeviceScanActivity
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:40:9-46:20
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:40:9-46:20
 	android:label
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:41:13-45
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:41:13-45
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:40:19-53
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:40:19-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:42:13-45:29
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:42:13-45:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:43:17-68
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:43:17-68
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:43:25-66
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:44:17-76
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:44:17-76
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:44:27-74
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:44:27-74
 activity#com.example.android.bluetoothlegatt.DeviceControlActivity
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:47:9-58
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:47:9-58
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:47:19-56
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:47:19-56
 service#com.example.android.bluetoothlegatt.BluetoothLeService
-ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:48:9-77
+ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:48:9-77
 	android:enabled
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:48:53-75
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:48:53-75
 	android:name
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml:48:18-52
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:48:18-52
 uses-sdk
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\acd60115d316b0c8cda4d688eb329851\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v13:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\acd60115d316b0c8cda4d688eb329851\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\b6703422c2cf924c0567bdb26c5c168a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\b6703422c2cf924c0567bdb26c5c168a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\a5e76874a00c9d1ec126dfc9490f2a25\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\a5e76874a00c9d1ec126dfc9490f2a25\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5f5bdef288e6bcc2af93d5e63863763a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\5f5bdef288e6bcc2af93d5e63863763a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b5659948fdf724541d99d34e003323d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\b5659948fdf724541d99d34e003323d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fc67818bae94194fbd266792a8bc94f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\fc67818bae94194fbd266792a8bc94f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e767dc3e065f574760ae3be14e40e77a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\e767dc3e065f574760ae3be14e40e77a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\51be228614348be784506966d164cef5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\51be228614348be784506966d164cef5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\15df0209371b08ce53840b8028f38543\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\15df0209371b08ce53840b8028f38543\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\034288fcf9c5acef962c7911d171a8db\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\034288fcf9c5acef962c7911d171a8db\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\410a1c7e91d9b8e293615204f0787fb5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\410a1c7e91d9b8e293615204f0787fb5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\ce9f58b9a5a10eea4eb591a7efba333c\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\anton\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\ce9f58b9a5a10eea4eb591a7efba333c\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\252476e683b05f51a0d11db8c6df6377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\252476e683b05f51a0d11db8c6df6377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\541fc2d5d76b4ccf1eab96525e909b3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\541fc2d5d76b4ccf1eab96525e909b3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\672dc8e3416cb16c0a04a4bd12283c6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\672dc8e3416cb16c0a04a4bd12283c6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a412dc3748381c5ec3f8d975984aa1e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a412dc3748381c5ec3f8d975984aa1e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\be0d8a2c3891538028486f2e0159cfef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\be0d8a2c3891538028486f2e0159cfef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\26044a4107fbc1947d2731484f994409\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\26044a4107fbc1947d2731484f994409\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f75b90c558c8a8be179ae32f9ec20d08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f75b90c558c8a8be179ae32f9ec20d08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85e6d1acaff8894b613988238ce4dc1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85e6d1acaff8894b613988238ce4dc1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0447fcf6e6d18fe13901d8c84833f3b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0447fcf6e6d18fe13901d8c84833f3b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\66ee566fa6b77e763ed25d042642f1ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\66ee566fa6b77e763ed25d042642f1ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5121c57db618590edeefc191453d4814\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5121c57db618590edeefc191453d4814\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\87c9f10b757f0adf1930b1461f3c10ab\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\87c9f10b757f0adf1930b1461f3c10ab\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\anton\AndroidStudioProjects\MineDetector\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml

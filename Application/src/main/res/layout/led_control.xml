@@ -2,25 +2,49 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Toggle LED"
-        android:id="@+id/button2"
-        android:onClick="onClickWrite" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Start read"
-        android:id="@+id/button"
-        android:onClick="onClickRead" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/no_data"
         android:id="@+id/data_value" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="400dp"
+        android:gravity="center_horizontal">>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:onClick="onClickWrite"
+            android:text="Toggle LED" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:onClick="onClickRead"
+            android:text="Start read" />
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_button"
+
+
+        android:text="start-stop" />
+
+
 </LinearLayout>

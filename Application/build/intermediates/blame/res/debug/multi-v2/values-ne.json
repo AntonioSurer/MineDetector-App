@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\anton\\AndroidStudioProjects\\MineDetector\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
+            "outputFile": "C:\\Users\\Dell\\Documents\\MineDetector-App\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne\\values-ne.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\5f5bdef288e6bcc2af93d5e63863763a\\res\\values-ne\\values-ne.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,314,422,513,620,747,841,931,1019,1129,1245,1348,1463,1565,1680,1851,1963",
-                        "endColumns": "104,103,107,90,106,126,93,89,87,109,115,102,114,101,114,170,111,85",
-                        "endOffsets": "205,309,417,508,615,742,836,926,1014,1124,1240,1343,1458,1560,1675,1846,1958,2044"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\410a1c7e91d9b8e293615204f0787fb5\\res\\values-ne\\values-ne.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5121c57db618590edeefc191453d4814\\res\\values-ne\\values-ne.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "2049",
                         "endColumns": "100",
                         "endOffsets": "2145"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a412dc3748381c5ec3f8d975984aa1e6\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,314,422,513,620,747,841,931,1019,1129,1245,1348,1463,1565,1680,1851,1963",
+                        "endColumns": "104,103,107,90,106,126,93,89,87,109,115,102,114,101,114,170,111,85",
+                        "endOffsets": "205,309,417,508,615,742,836,926,1014,1124,1240,1343,1458,1560,1675,1846,1958,2044"
                     }
                 }
             ]

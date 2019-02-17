@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\anton\\AndroidStudioProjects\\MineDetector\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
+            "outputFile": "C:\\Users\\Dell\\Documents\\MineDetector-App\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\5f5bdef288e6bcc2af93d5e63863763a\\res\\values-mr\\values-mr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,322,429,519,620,735,812,890,970,1082,1184,1280,1389,1490,1605,1762,1867",
-                        "endColumns": "110,105,106,89,100,114,76,77,79,111,101,95,108,100,114,156,104,79",
-                        "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,1942"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\410a1c7e91d9b8e293615204f0787fb5\\res\\values-mr\\values-mr.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5121c57db618590edeefc191453d4814\\res\\values-mr\\values-mr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1947",
                         "endColumns": "100",
                         "endOffsets": "2043"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a412dc3748381c5ec3f8d975984aa1e6\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,322,429,519,620,735,812,890,970,1082,1184,1280,1389,1490,1605,1762,1867",
+                        "endColumns": "110,105,106,89,100,114,76,77,79,111,101,95,108,100,114,156,104,79",
+                        "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,1942"
                     }
                 }
             ]

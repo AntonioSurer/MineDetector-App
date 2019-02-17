@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\anton\\AndroidStudioProjects\\MineDetector\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
+            "outputFile": "C:\\Users\\Dell\\Documents\\MineDetector-App\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bg\\values-bg.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\5f5bdef288e6bcc2af93d5e63863763a\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a412dc3748381c5ec3f8d975984aa1e6\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\410a1c7e91d9b8e293615204f0787fb5\\res\\values-bg\\values-bg.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5121c57db618590edeefc191453d4814\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
