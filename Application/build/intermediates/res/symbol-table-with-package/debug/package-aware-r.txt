@@ -707,6 +707,7 @@ id src_atop
 id src_in
 id src_over
 id status_bar_latest_event_content
+id status_robot
 id submenuarrow
 id submit_area
 id tabMode

@@ -37,6 +37,7 @@ import android.widget.ExpandableListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.Toast;
 import android.widget.ToggleButton;
 
 
@@ -51,6 +52,8 @@ import java.util.List;
  * Bluetooth LE API.
  */
 public class DeviceControlActivity extends Activity {
+    ToggleButton toggleButton;
+    TextView textView;
     private final static String TAG = DeviceControlActivity.class.getSimpleName();
 
     public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
@@ -181,8 +184,27 @@ public class DeviceControlActivity extends Activity {
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
 
+
+        textView=findViewById(R.id.status_robot);
+        textView.setVisibility(View.INVISIBLE);
     }
 
+   public void changestateButton(View view){
+    boolean checked = ((ToggleButton)view).isChecked();
+    if(checked){
+
+         textView.setText("yooo");
+         textView.setVisibility(view.VISIBLE);
+   }
+    else{
+
+    textView.setText("yaaaa");
+
+    }
+
+   }
+
+   
     @Override
     protected void onResume() {
         super.onResume();
@@ -337,6 +359,11 @@ public class DeviceControlActivity extends Activity {
             mBluetoothLeService.readCustomCharacteristic();
         }
     }
+
+
+
+
+
 
 
 }
