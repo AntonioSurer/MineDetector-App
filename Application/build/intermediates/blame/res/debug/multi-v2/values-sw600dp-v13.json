@@ -23,11 +23,30 @@
                         "endOffsets": "739,808"
                     },
                     "to": {
-                        "startLines": "10,11",
+                        "startLines": "18,19",
                         "startColumns": "4,4",
-                        "startOffsets": "611,679",
+                        "startOffsets": "1170,1238",
                         "endColumns": "67,67",
-                        "endOffsets": "674,742"
+                        "endOffsets": "1233,1301"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\6951a42bae9817fedd09102edaf521cb\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,1306,1369",
+                        "endLines": "10,11,12,13,14,15,16,17,20,24",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,1364,1546"
                     }
                 },
                 {
@@ -41,12 +60,12 @@
                         "endOffsets": "883"
                     },
                     "to": {
-                        "startLines": "12",
+                        "startLines": "25",
                         "startColumns": "4",
-                        "startOffsets": "747",
-                        "endLines": "16",
+                        "startOffsets": "1551",
+                        "endLines": "29",
                         "endColumns": "12",
-                        "endOffsets": "987"
+                        "endOffsets": "1791"
                     }
                 }
             ]

@@ -17,5 +17,10 @@
 
 <resources>
 
+    <color name="colorPrimary"> #ed3117</color>
+    <color name="colorPrimaryDark"> #e12284</color>
+    <color name="colorAccent"> #cccccc</color>
+
+
 
 </resources>

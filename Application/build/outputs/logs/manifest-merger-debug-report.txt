@@ -4,6 +4,7 @@ ADDED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\Android
 INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:1-51:12
 INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:1-51:12
 MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\252476e683b05f51a0d11db8c6df6377\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\6951a42bae9817fedd09102edaf521cb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\541fc2d5d76b4ccf1eab96525e909b3e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\672dc8e3416cb16c0a04a4bd12283c6b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\a412dc3748381c5ec3f8d975984aa1e6\AndroidManifest.xml:17:1-22:12
@@ -11,8 +12,10 @@ MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Dell\.gra
 MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\26044a4107fbc1947d2731484f994409\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f75b90c558c8a8be179ae32f9ec20d08\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85e6d1acaff8894b613988238ce4dc1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\bca8563c3dd8551d8e98756c3c54e136\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0447fcf6e6d18fe13901d8c84833f3b8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\66ee566fa6b77e763ed25d042642f1ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\875f03de862be0b9f14d31c8f6f611bb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5121c57db618590edeefc191453d4814\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\87c9f10b757f0adf1930b1461f3c10ab\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml:20:1-51:12
@@ -93,6 +96,8 @@ INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\Andr
 INJECTED from C:\Users\Dell\Documents\MineDetector-App\Application\src\main\AndroidManifest.xml
 MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\252476e683b05f51a0d11db8c6df6377\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\252476e683b05f51a0d11db8c6df6377\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\6951a42bae9817fedd09102edaf521cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\6951a42bae9817fedd09102edaf521cb\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\541fc2d5d76b4ccf1eab96525e909b3e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\541fc2d5d76b4ccf1eab96525e909b3e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\672dc8e3416cb16c0a04a4bd12283c6b\AndroidManifest.xml:20:5-44
@@ -107,10 +112,14 @@ MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Dell\.gradl
 MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\f75b90c558c8a8be179ae32f9ec20d08\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85e6d1acaff8894b613988238ce4dc1b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\85e6d1acaff8894b613988238ce4dc1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\bca8563c3dd8551d8e98756c3c54e136\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\bca8563c3dd8551d8e98756c3c54e136\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0447fcf6e6d18fe13901d8c84833f3b8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0447fcf6e6d18fe13901d8c84833f3b8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\66ee566fa6b77e763ed25d042642f1ad\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\66ee566fa6b77e763ed25d042642f1ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\875f03de862be0b9f14d31c8f6f611bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\875f03de862be0b9f14d31c8f6f611bb\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5121c57db618590edeefc191453d4814\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\5121c57db618590edeefc191453d4814\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Dell\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\87c9f10b757f0adf1930b1461f3c10ab\AndroidManifest.xml:20:5-22:41

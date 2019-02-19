@@ -28,6 +28,7 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.Vibrator;
+import android.support.design.widget.BottomSheetDialog;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -169,6 +170,8 @@ public class DeviceControlActivity extends Activity {
         mDeviceName = intent.getStringExtra(EXTRAS_DEVICE_NAME);
         mDeviceAddress = intent.getStringExtra(EXTRAS_DEVICE_ADDRESS);
 
+
+
         /*
         // Sets up UI references.
         ((TextView) findViewById(R.id.device_address)).setText(mDeviceAddress);
@@ -187,24 +190,32 @@ public class DeviceControlActivity extends Activity {
 
         textView=findViewById(R.id.status_robot);
         textView.setVisibility(View.INVISIBLE);
+
+
+
+
+
+
+
+
     }
 
    public void changestateButton(View view){
     boolean checked = ((ToggleButton)view).isChecked();
     if(checked){
-
-         textView.setText("yooo");
+         mBluetoothLeService.writeCustomCharacteristic(111);
+         textView.setText(" Robot running");
          textView.setVisibility(view.VISIBLE);
    }
     else{
-
-    textView.setText("yaaaa");
+        mBluetoothLeService.writeCustomCharacteristic(101);
+        textView.setText("Robot stop");
 
     }
 
    }
 
-   
+
     @Override
     protected void onResume() {
         super.onResume();
@@ -349,7 +360,7 @@ public class DeviceControlActivity extends Activity {
     public void onClickWrite(View v){
         if(mBluetoothLeService != null) {
             Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-            mBluetoothLeService.writeCustomCharacteristic(1);
+            mBluetoothLeService.writeCustomCharacteristic(100);
             vib.vibrate(200);
         }
     }
