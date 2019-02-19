@@ -190,12 +190,7 @@ public class DeviceControlActivity extends Activity {
 
         textView=findViewById(R.id.status_robot);
         textView.setVisibility(View.INVISIBLE);
-
-
-
-
-
-
+        
 
 
     }

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal">
-
+    android:gravity="center_horizontal"
+    >
 
     <TextView
         android:id="@+id/status_robot"
@@ -16,18 +17,23 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/data_value"
         android:layout_width="match_parent"
-        android:layout_height="95dp"
-        android:text="TextView"
+        android:layout_height="54dp"
         android:orientation="horizontal"
+        android:text="@string/no_data"/>
 
         />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_height="405dp" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
         android:gravity="center_horizontal"
         android:orientation="horizontal">>
 
