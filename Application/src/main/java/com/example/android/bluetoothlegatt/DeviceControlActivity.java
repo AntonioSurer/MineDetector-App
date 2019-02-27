@@ -33,13 +33,16 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.ExpandableListView;
+import android.widget.ListView;
 import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+import android.widget.ArrayAdapter;
 
 
 import java.util.ArrayList;
@@ -62,6 +65,8 @@ public class DeviceControlActivity extends Activity {
 
     private TextView mConnectionState;
     private TextView mDataField;
+    private ListView mList;
+    private Button CoordList;
     private String mDeviceName;
     private String mDeviceAddress;
     private ExpandableListView mGattServicesList;
@@ -181,6 +186,8 @@ public class DeviceControlActivity extends Activity {
 
       */
         mDataField = (TextView) findViewById(R.id.data_value);
+        mList = (ListView) findViewById(R.id.listView);
+        CoordList = (Button)  findViewById(R.id.button);
 
         getActionBar().setTitle(mDeviceName);
         getActionBar().setDisplayHomeAsUpEnabled(true);
@@ -190,22 +197,42 @@ public class DeviceControlActivity extends Activity {
 
         textView=findViewById(R.id.status_robot);
         textView.setVisibility(View.INVISIBLE);
-        
+
+
+
+        CoordList.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v){
+                Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+                Log.w(TAG, "CoorList");
+                Intent myIntent = new Intent(DeviceControlActivity.this, ListedCoord.class);
+                vib.vibrate(200);
+                startActivity(myIntent);
+            }
+        });
 
 
     }
 
+
    public void changestateButton(View view){
+
+       Button btn = (Button) findViewById(R.id.button3);
+       //set the button background from drawable resource xml file
+       btn.setBackground(getResources().getDrawable(R.drawable.round_button));
+
     boolean checked = ((ToggleButton)view).isChecked();
     if(checked){
-         mBluetoothLeService.writeCustomCharacteristic(111);
-         textView.setText(" Robot running");
-         textView.setVisibility(view.VISIBLE);
+        mBluetoothLeService.writeCustomCharacteristic(50);
+
+        if(mBluetoothLeService != null) {
+            mBluetoothLeService.readCustomCharacteristic();
+        }
+        textView.setText("State: off");
+        textView.setVisibility(view.VISIBLE);
    }
     else{
-        mBluetoothLeService.writeCustomCharacteristic(101);
-        textView.setText("Robot stop");
-
+        mBluetoothLeService.writeCustomCharacteristic(54);
+        textView.setText("State: on");
     }
 
    }
@@ -274,15 +301,28 @@ public class DeviceControlActivity extends Activity {
 
     private void displayData(String data) {
         if (data != null) {
-            if (data.equals("0")) {
-                Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-                mDataField.setText("Mine Found!");
-                vib.vibrate(500);
-            }
-         else
-              mDataField.setText(data);
-          Log.w(TAG, ""+data);
+            mList.setAdapter(new ArrayAdapter<Data.ToDo>(
+                    this,
+                    android.R.layout.simple_list_item_1,
+                    Data.todos
+            ));
 
+
+            if (data.equals("0")) {
+                mDataField.setText("Calibration done!");
+                Data.todos.add(new Data.ToDo("Calibration done!"));
+            }
+
+            else {
+
+                DataCoord.todo.add(new DataCoord.ToDos("\r\n"+data));
+                Data.todos.add(new Data.ToDo("Mine Found!"));
+
+
+                Log.w(TAG, "" + data);
+
+
+            }
         }
     }
 
@@ -355,15 +395,13 @@ public class DeviceControlActivity extends Activity {
     public void onClickWrite(View v){
         if(mBluetoothLeService != null) {
             Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-            mBluetoothLeService.writeCustomCharacteristic(100);
+            mBluetoothLeService.writeCustomCharacteristic(56);
             vib.vibrate(200);
         }
     }
 
     public void onClickRead(View v){
-        if(mBluetoothLeService != null) {
-            mBluetoothLeService.readCustomCharacteristic();
-        }
+
     }
 
 
