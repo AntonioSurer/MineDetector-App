@@ -123,6 +123,7 @@ public class DeviceControlActivity extends Activity {
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 displayData(intent.getStringExtra(BluetoothLeService.EXTRA_DATA));
 
+
             }
         }
     };
@@ -216,9 +217,6 @@ public class DeviceControlActivity extends Activity {
 
    public void changestateButton(View view){
 
-       Button btn = (Button) findViewById(R.id.button3);
-       //set the button background from drawable resource xml file
-       btn.setBackground(getResources().getDrawable(R.drawable.round_button));
 
     boolean checked = ((ToggleButton)view).isChecked();
     if(checked){
@@ -300,6 +298,7 @@ public class DeviceControlActivity extends Activity {
     }
 
     private void displayData(String data) {
+
         if (data != null) {
             mList.setAdapter(new ArrayAdapter<Data.ToDo>(
                     this,
@@ -308,21 +307,47 @@ public class DeviceControlActivity extends Activity {
             ));
 
 
+
             if (data.equals("0")) {
                 mDataField.setText("Calibration done!");
                 Data.todos.add(new Data.ToDo("Calibration done!"));
             }
 
-            else {
+            else if(data.equals("1")){
+                mDataField.setText("Obstacles found!");
+                Data.todos.add(new Data.ToDo("Obstacles found!"));
 
+            }
+            else if (data.equals("2")){
+                mDataField.setText("Buzzer ON!");
+                Data.todos.add(new Data.ToDo("Buzzer ON!"));
+            }
+
+            else if (data.equals("3")){
+                mDataField.setText("Buzzer OFF!");
+                Data.todos.add(new Data.ToDo("Buzzer OFF!"));
+            }
+            else if (data.equals("4")){
+                mDataField.setText("Robot ON!");
+                Data.todos.add(new Data.ToDo("Robot ON!"));
+            }
+            else if (data.equals("5")){
+                mDataField.setText("Robot OFF!");
+                Data.todos.add(new Data.ToDo("Robot OFF!"));
+            }
+
+            else {
+                data = new String("");
+                Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
                 DataCoord.todo.add(new DataCoord.ToDos("\r\n"+data));
                 Data.todos.add(new Data.ToDo("Mine Found!"));
-
-
+                vib.vibrate(500);
                 Log.w(TAG, "" + data);
 
 
+
             }
+
         }
     }
 
@@ -405,7 +430,12 @@ public class DeviceControlActivity extends Activity {
     }
 
 
-
+    public void back_home(View v){
+        if(mBluetoothLeService != null) {
+            Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            vib.vibrate(200);
+        }
+    }
 
 
 

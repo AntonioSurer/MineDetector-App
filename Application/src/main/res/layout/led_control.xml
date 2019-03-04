@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
-    android:background="#515151"
+    android:background="#dcdcdc"
     android:weightSum="100">
 
     <TextView
         android:id="@+id/status_robot"
         android:layout_width="411dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_height="55dp"
         android:background="#45ADA8"
+        android:padding="5dp"
         android:text="Status"
         android:textSize="15sp" />
 
@@ -21,44 +21,53 @@
         android:id="@+id/data_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background=" #547980 "
-        android:text="mine_destroyer"/>
+        android:orientation="horizontal"
+        android:text="mine_destroyer" />
 
         />
 
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="461dp"
-        android:background="@color/cardview_shadow_start_color"
+        android:layout_width="391dp"
+        android:layout_height="443dp"
+        android:background="#d4c5b8"
         android:stackFromBottom="true"
         android:transcriptMode="alwaysScroll" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FF5722"
+        android:background="#00bfff"
         android:gravity="center_horizontal"
         android:orientation="horizontal">>
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@drawable/back_home"
+            android:onClick="back_home"
+            android:text="Home" />
 
         <Button
             android:id="@+id/show_dialog"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="50"
-            android:background="#3B5998"
+            android:background="@drawable/buzzer_button"
             android:onClick="onClickWrite"
             android:text="Buzzer" />
+
 
         <Button
             android:id="@+id/button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="50"
-            android:background="#699ad4"
-            android:text="show fund mines" />
+            android:background="@drawable/fund_button"
+            android:text="Mines" />
     </LinearLayout>
 
     <ToggleButton
@@ -67,7 +76,6 @@
         android:layout_height="150dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/custom_button"
-        android:checked="true"
         android:onClick="changestateButton"
         android:text="start/stop" />
 

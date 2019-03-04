@@ -788,6 +788,8 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back_home
+drawable buzzer_button
 drawable custom_button
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -795,6 +797,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fund_button
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -845,6 +848,7 @@ id all
 id always
 id async
 id auto
+id back_button
 id barrier
 id beginning
 id blocking
@@ -1069,7 +1073,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout dialog_layout
 layout gatt_services_characteristics
 layout led_control
 layout listitem_device
