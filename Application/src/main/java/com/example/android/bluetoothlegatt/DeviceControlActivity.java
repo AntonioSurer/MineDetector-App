@@ -438,6 +438,14 @@ public class DeviceControlActivity extends Activity {
     }
 
 
+    public void clear_list(View v){
+        if(mBluetoothLeService != null) {
+            Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+            vib.vibrate(200);
+        }
+
+    }
+
 
 
 }

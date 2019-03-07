@@ -790,6 +790,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable back_home
 drawable buzzer_button
+drawable clear_icon
 drawable custom_button
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -863,6 +864,7 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id clear_button
 id clip_horizontal
 id clip_vertical
 id collapseActionView
