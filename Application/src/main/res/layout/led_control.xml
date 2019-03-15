@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="411dp"
-        android:layout_height="55dp"
+        android:layout_height="wrap_content"
         android:background="#45ADA8"
         android:gravity="center_horizontal"
         android:orientation="horizontal">>
@@ -29,7 +29,7 @@
     <TextView
         android:id="@+id/status_robot"
         android:layout_width="411dp"
-        android:layout_height="25dp"
+        android:layout_height="30dp"
         android:background="#45ADA8"
         android:padding="5dp"
         android:text="Status"
@@ -49,7 +49,7 @@
     <ListView
         android:id="@+id/listView"
         android:layout_width="391dp"
-        android:layout_height="443dp"
+        android:layout_height="444dp"
         android:background="#d4c5b8"
         android:stackFromBottom="true"
         android:transcriptMode="alwaysScroll" />

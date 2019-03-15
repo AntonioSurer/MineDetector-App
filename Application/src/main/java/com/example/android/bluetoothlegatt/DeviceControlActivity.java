@@ -318,9 +318,10 @@ public class DeviceControlActivity extends Activity {
                 Data.todos.add(new Data.ToDo("Obstacles found!"));
 
             }
-            else if (data.equals("2")){
+            else if (data.charAt(0) == '_'){
                 mDataField.setText("Buzzer ON!");
-                Data.todos.add(new Data.ToDo("Buzzer ON!"));
+                Data.todos.add(new Data.ToDo("Buzzer ON,Cord:"+data));
+                Log.w(TAG, "" + data);
             }
 
             else if (data.equals("3")){
@@ -336,16 +337,19 @@ public class DeviceControlActivity extends Activity {
                 Data.todos.add(new Data.ToDo("Robot OFF!"));
             }
 
-            else {
-                data = new String("");
+            else if (data.charAt(0) == 'R')
+            {
                 Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-                DataCoord.todo.add(new DataCoord.ToDos("\r\n"+data));
+                mDataField.setText("Mine Found!");
                 Data.todos.add(new Data.ToDo("Mine Found!"));
-                vib.vibrate(500);
+                vib.vibrate(300);
+                DataCoord.todo.add(new DataCoord.ToDos(""+data));
                 Log.w(TAG, "" + data);
+            }
 
-
-
+            else {
+                DataCoord.todo.add(new DataCoord.ToDos(""+data));
+                Log.w(TAG, "" + data);
             }
 
         }
@@ -442,6 +446,12 @@ public class DeviceControlActivity extends Activity {
         if(mBluetoothLeService != null) {
             Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
             vib.vibrate(200);
+            Data.todos.clear();
+            mList.setAdapter(new ArrayAdapter<Data.ToDo>(
+                    this,
+                    android.R.layout.simple_list_item_1,
+                    Data.todos
+            ));
         }
 
     }
